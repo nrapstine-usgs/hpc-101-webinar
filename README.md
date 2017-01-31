@@ -24,12 +24,6 @@ $ pwd
 
 The command `pwd` stands for print working directory and it will display where you are in the directory structure.
 
-To navigate to the directory where you would like the HPC tutorial repository to be. Use `cd` (change directory) command to move into a different directory. The `cd` command switches you into the directory that you specify, like so:
-
-```
-$ cd <directory name>
-```
-
 Type the command `ls` (list directory contents) this will show you what files are in your current working directory.  
 
 ------
