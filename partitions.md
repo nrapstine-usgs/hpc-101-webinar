@@ -2,7 +2,7 @@
 
 **Partitions** organize nodes into logical sets (possibly overlapping groups of nodes so that nodes can be in multiple partitions). Each partition has different constraints such as job time limit, job size limit, min CPU's required, and so on. 
 
-#### **Normal** 
+#### **normal partition** 
 
 Maximum wall time: 7 days. 
 
@@ -14,7 +14,7 @@ On Yeti, they are n3-[85-144].
 
 ![distributed](img/distributed.png)
 
-#### **UV**
+#### **UV **partition
 
 Maximum wall time: 3 days.
 
@@ -31,7 +31,7 @@ Maximum wall time: 3 days.
   - 6 [Intel Xeon Phi 7120P ("Knight's Corner")](http://ark.intel.com/products/75799/Intel-Xeon-Phi-Coprocessor-7120P-16GB-1_238-GHz-61-core) with 61 cores (366 Coprocessor cores)
   - 6 [2TB Intel P3700 NVMe SSD](http://www.intel.com/content/www/us/en/solid-state-drives/solid-state-drives-dc-p3700-series.html) (12 TB total) for local scratch or short term use. These drives replace the use the ramdisk for local scratch on these systems. You now have all RAM available for computation.
 
-#### **Large**
+#### **Large** partition
 
 Maximum wall time: 3 days
 
@@ -45,7 +45,7 @@ On Yeti, they are n3-[145-204].
 
 
 
-#### **Long**
+#### **Long** partition
 
 Maximum wall time: 30 days
 
