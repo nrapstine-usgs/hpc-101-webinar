@@ -1,4 +1,4 @@
-### Section 12: scp command 
+### Section 13: scp command 
 
 #### secure copy remote to local and local to remote
 
@@ -39,4 +39,4 @@ $ scp -r nrapstine@yeti.cr.usgs.gov:~/data/ data_from_Yeti/
 
 ------
 
-Go to Section 13: [Loading modules on Yeti](modules.md)
+Go to Section 14: [Loading modules on Yeti](modules.md)

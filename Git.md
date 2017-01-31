@@ -4,7 +4,7 @@ Git is distributed verstion control system. What does that mean?
 
 Distributed means that everyone has a local copy of the central repository. Your local repo has all the information that the central remote repository has. If something happens to the remote repository, every developer has a back-up of the repository.
 
-Make sure that git is installed, check git version:
+Make sure that Git is installed, check Git version:
 
 ```
 $ git --version
@@ -71,19 +71,27 @@ $ git status
 $ git log      # to see commit history
 ```
 
-For this tutorial, we are going to clone a remote repository. Open a Browser and go to `https://gitlab.cr.usgs.gov/hpc-arc/yeti-user-docs`.
+Open a Browser and go to: [HPC 101 webinar GitHub repository](https://github.com/nrapstine-usgs/hpc-101-webinar) 
 
-Change SSH to HTTPS Button and press on Copy to Clipboard button.
+Click on the `Clone or download` icon, and switch to HTTPS copy by clicking `Use HTTPS` then press copy button.
 
-![git-clone](./img/git-clone.png)  
+![](./img/clone.png)  
 
 On Yeti, navigate to your home directory and clone the Yeti Tutorial repository by typing `git clone` and paste the url that you just copied:
 
 ```
-$ git clone https://gitlab.cr.usgs.gov/hpc-arc/yeti-user-docs.git
+$ git clone https://github.com/nrapstine-usgs/hpc-101-webinar.git
 ```
 
-When you enter `ls` command, you should see `yeti-user-docs` directory in your home. 
+When you enter `ls` command, you should see `hpc-101-webinar` directory in your home. 
+
+Navigate into the newly created git repository with `cd` command.
+
+```
+$ cd hpc-101-webinar
+```
+
+ You should now be inside the ***hpc-101-webinar*** directory. To see the directory contents type the command `ls` (list directory contents) and you should see a few markdown files (file.md) and img and examples directories.
 
 To view information about the remote reposity, enter:
 
@@ -91,7 +99,7 @@ To view information about the remote reposity, enter:
 $ git remote -v
 ```
 
-To push your local changes to remote repository, first you want to `pull` the changes that others have made to the remote repository while you were working on your changes. 
+To push your local changes (after you modify a script or a file) to remote repository, first you want to `pull` the changes that others have made to the remote repository while you were working on your changes. 
 
 ```
 $ git pull origin master
@@ -103,4 +111,4 @@ $ git push origin master
 
 ------
 
-Go to Session 11: [vi editor](vi.md)
+Go to Session 11: [Markdown](markdown.md)
