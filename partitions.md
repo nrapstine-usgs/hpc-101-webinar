@@ -14,7 +14,7 @@ On Yeti, they are n3-[85-144].
 
 ![distributed](img/distributed.png)
 
-#### **UV **partition
+#### UV partition
 
 Maximum wall time: 3 days.
 
