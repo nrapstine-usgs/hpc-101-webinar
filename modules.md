@@ -1,4 +1,4 @@
-### Section 13: Loading Environment Modules on Yeti
+### Section 14: Loading Environment Modules on Yeti
 
 Before we run any code, let's look at our available modules on Yeti. On Yeti you can load environment modules to dynamically modify your environment. To check which modules are available on Yeti you can use the **module avail** command.
 
@@ -152,4 +152,4 @@ Remember to always load the module before activating the enviroment.
 
 ------
 
-Go to Section 14: [submitting jobs with sbatch](batch.md)
+Go to Section 15: [submitting jobs with sbatch](batch.md)

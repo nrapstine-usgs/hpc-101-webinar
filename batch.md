@@ -1,4 +1,4 @@
-### Section 14: Batch Jobs
+### Section 15: Batch Jobs
 
 On Yeti, navigate into `hpc-101-webinar/examples/` directory:
 
@@ -233,5 +233,5 @@ Notice that this time you had 4 tasks running on 2 different nodes, as requested
 
 ------
 
-Go to Section 15: [running jobs interactively](interactive.md)
+Go to Section 16: [running jobs interactively](interactive.md)
 
