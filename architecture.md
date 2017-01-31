@@ -4,7 +4,7 @@
 
 ![Yeti](./img/Yeti.png)
 
-#### Hardware
+### Hardware
 
 - 123 Compute Nodes (38,590 Total Cores):
   - 3,152 CPU Cores (1,456 Intel Ivy Bridge cores and 1,696 Intel Haswell cores)
@@ -21,7 +21,7 @@
 
 
 
-#### Compute Nodes
+### Compute Nodes
 
 **Distributed Memory System:**
 
@@ -66,7 +66,7 @@
 
 
 
-#### Node Types
+### Node Types
 
 **Login nodes**
 
@@ -81,7 +81,7 @@
 
   ​
 
-#### Yeti Storage
+### Yeti Storage
 
 Yeti has four file systems shared by all nodes:
 
