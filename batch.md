@@ -1,9 +1,9 @@
 ### Section 13: Batch Jobs
 
-On Yeti, navigate into `yeti-user-docs/tutorials/hpc101` directory:
+On Yeti, navigate into `hpc-101-webinar/examples/` directory:
 
 ```
-$ cd yeti-user-docs/tutorials/hpc101
+$ cd hpc-101-webinar/examples
 ```
 
 View the content of this directory:
