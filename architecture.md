@@ -4,15 +4,7 @@
 
 ![Yeti](./img/Yeti.png)
 
-
-
 #### Hardware
-
-**Nodes** have **CPU's** (Central Processing Unit) and **GPU's** (Graphics Processing Unit) on them. 
-
-A single CPU or **processor **is an individual silicon chip such as Intel Ivy Bridge or Intel Haswell with multiple **cores** on it. A **core** is an individual processor that executes programs.
-
-
 
 - 123 Compute Nodes (38,590 Total Cores):
   - 3,152 CPU Cores (1,456 Intel Ivy Bridge cores and 1,696 Intel Haswell cores)
@@ -83,7 +75,7 @@ A single CPU or **processor **is an individual silicon chip such as Intel Ivy Br
 
 **Compute nodes**
 
-- This is where you submit your jobs through the SLURM scheduler
+- This is where you submit your jobs through the scheduler
 
 - Intended for heavy computations
 

@@ -15,7 +15,10 @@ Here is an image of **IBM's Blue Gene/P supercomputer** at Argonne National Labo
 
 Image from https://en.wikipedia.org/wiki/Supercomputer
 
-Racks/cabinets house stacked blades with each blade having multiple compute **nodes**. Nodes refer to the physical machine/server. Each node has **processors** (**CPU's** - Central Processing Units and **GPU's** - Graphics Processing Units). Processors has multiple **cores**. Cores are individual computation unit on the CPU that carry out the instructions. For example, an individual Intel-based compute node has two 12-core CPU's.
+- Racks/cabinets house stacked blades with each blade having multiple compute **nodes**
+- Nodes refer to the physical machine/server. Each node has **processors** (**CPU's** - Central Processing Units and **GPU's** - Graphics Processing Units)
+- Processors have multiple **cores**
+- Cores are individual computation unit on the CPU that carry out the instructions. For example, an individual Intel-based compute node has two 12-core CPU's
 
 ![hierarchy](./img/LLNL_BGL_Diagram.png)
 
