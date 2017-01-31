@@ -1,4 +1,4 @@
-### Section 8: Login to USGS supercomputer Yeti with SSH
+### Section 6: Login to USGS supercomputer Yeti with SSH
 
 - Windows users first will have to install [Xming](https://gitlab.cr.usgs.gov/hpc-arc/yeti-user-docs/wikis/wiki/Xming) and [PuTTY](https://gitlab.cr.usgs.gov/hpc-arc/yeti-user-docs/wikis/wiki/Putty). After setting up configurations, Click `Open` and PuTTY will open up a window. Type your user name to login to Yeti. Your password is your AD password. 
 - Mac users open Terminal and type:
@@ -48,4 +48,4 @@ $ scp -r nrapstine@yeti.cr.usgs.gov:~/data/ data_from_Yeti/
 
 ------
 
-Go to Section 9: [Version control with Git](Git.md)
+Go to Section 7: [Job scheduler SLURM](SLURM.md)

@@ -1,4 +1,4 @@
-### Section 11: SLURM
+### Section 7: SLURM
 
 #### Simple Linux Utility for Resource Management
 
@@ -193,4 +193,4 @@ if you have a demo, emergency data processing needs, or for some reason need pri
 
 ------
 
-Go to Section 12: [Loading modules on Yeti](modules.md)
+Go to Section 8: [Yeti partitions](partitions.md)

@@ -1,4 +1,4 @@
-### Section 9: Git  
+### Section 10: Git  
 
 Git is distributed verstion control system. What does that mean?
 
@@ -103,4 +103,4 @@ $ git push origin master
 
 ------
 
-Go to Session 10: [vi editor](vi.md)
+Go to Session 11: [vi editor](vi.md)

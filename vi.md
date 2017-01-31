@@ -69,4 +69,4 @@ In **Command** mode:
 
 ------
 
-Go to Section 11: [Job scheduler SLURM](SLURM.md)
+Go to Section 12: [Loading modules on Yeti](modules.md)

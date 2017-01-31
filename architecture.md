@@ -119,4 +119,4 @@ Yeti has four file systems shared by all nodes:
 
 ------
 
-Go to Section 6: [partitions on Yeti](partitions.md)
+Go to Section 6: [Login to Yeti with SSH](ssh.md)
