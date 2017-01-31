@@ -1,4 +1,4 @@
-### Section 10: Editing files with vi
+### Section 11: Editing files with vi
 
 To start vi editor, type 
 
@@ -69,4 +69,4 @@ In **Command** mode:
 
 ------
 
-Go to Section 12: [Loading modules on Yeti](modules.md)
+Go to Section 12: [using scp command to copy local files to Yeti](scp.md)
