@@ -56,4 +56,4 @@ In a distributed memory system, each CPU has 128 GB RAM while in shared memory s
 
 ------
 
-Go to Section 5: [Yeti architecture](./architecture)
+Go to Section 5: [Yeti architecture](architecture.md)

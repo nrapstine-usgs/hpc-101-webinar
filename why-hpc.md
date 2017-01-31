@@ -52,4 +52,4 @@ Applications include:
 
 ------
 
-Go to Section 4: [What is a supercomputer?](./supercomputer)
+Go to Section 4: [What is a supercomputer?](supercomputer.md)

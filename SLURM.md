@@ -193,4 +193,4 @@ if you have a demo, emergency data processing needs, or for some reason need pri
 
 ------
 
-Go to Section 12: [Loading modules on Yeti](./modules)
+Go to Section 12: [Loading modules on Yeti](modules.md)

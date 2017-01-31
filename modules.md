@@ -152,4 +152,4 @@ Remember to always load the module before activating the enviroment.
 
 ------
 
-Go to Section 13: [submitting jobs with sbatch](./batch)
+Go to Section 13: [submitting jobs with sbatch](batch.md)

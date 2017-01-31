@@ -102,4 +102,4 @@ No Modulefiles Currently Loaded.
 
 ------
 
-Go to Section 15: [setting up SSH keys](./ssh_keys)
+Go to Section 15: [setting up SSH keys](ssh_keys.md)

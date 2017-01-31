@@ -233,5 +233,5 @@ Notice that this time you had 4 tasks running on 2 different nodes, as requested
 
 ------
 
-Go to Section 14: [running jobs interactively](./interactive)
+Go to Section 14: [running jobs interactively](interactive.md)
 

@@ -127,4 +127,4 @@ Yeti has four file systems shared by all nodes:
 
 ------
 
-Go to Section 6: [partitions on Yeti](./partitions)
+Go to Section 6: [partitions on Yeti](partitions.md)

@@ -57,4 +57,4 @@ On Yeti, they are n3-[85-144].
 
 ------
 
-Go to Section 7: [Linux/Command Line](./Linux)
+Go to Section 7: [Linux/Command Line](Linux.md)

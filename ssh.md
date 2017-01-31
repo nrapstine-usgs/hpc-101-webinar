@@ -48,4 +48,4 @@ $ scp -r nrapstine@yeti.cr.usgs.gov:~/data/ data_from_Yeti/
 
 ------
 
-Go to Section 9: [Version control with Git](./Git)
+Go to Section 9: [Version control with Git](Git.md)

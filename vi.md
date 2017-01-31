@@ -69,4 +69,4 @@ In **Command** mode:
 
 ------
 
-Go to Section 11: [Job scheduler SLURM](./SLURM)
+Go to Section 11: [Job scheduler SLURM](SLURM.md)

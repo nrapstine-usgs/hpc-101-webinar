@@ -329,4 +329,4 @@ When you want to execute a program that is not in your $PATH, run that program w
 
 ------
 
-Go to Section 8: [Login to Yeti with SSH](./ssh)
+Go to Section 8: [Login to Yeti with SSH](ssh.md)

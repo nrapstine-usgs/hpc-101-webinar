@@ -40,4 +40,4 @@ For help, send us an email at `gs-css_csas_hpc_help@usgs.gov`
 
 ------
 
-Go to Section 3: [why use Yeti supercomputer](./why-hpc)
+Go to Section 3: [why use Yeti supercomputer](why-hpc.md)

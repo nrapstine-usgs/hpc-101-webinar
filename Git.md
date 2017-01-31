@@ -103,4 +103,4 @@ $ git push origin master
 
 ------
 
-Go to Session 10: [vi editor](./vi)
+Go to Session 10: [vi editor](vi.md)
