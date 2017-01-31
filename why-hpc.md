@@ -8,7 +8,6 @@ Applications include:
 
 - Weather and Environmental modelling
 - Geophysics
-- Astrophysics
 - Computational fluid dynamics
 - Bioinformatics, genome sequencing
 
