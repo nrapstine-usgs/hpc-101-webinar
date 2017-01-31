@@ -27,7 +27,7 @@ The command `pwd` stands for print working directory and it will display where y
 To navigate to the directory where you would like the HPC tutorial repository to be. Use `cd` (change directory) command to move into a different directory. The `cd` command switches you into the directory that you specify, like so:
 
 ```
-cd <directory name>
+$ cd <directory name>
 ```
 
 Type the command `ls` (list directory contents) this will show you what files are in your current working directory.  
@@ -41,22 +41,27 @@ Click on the `Clone or download` icon, and switch to HTTPS copy by clicking `Use
 Then in terminal, type the following Git command with the url that you just copied:
 
 ```
-$ git clone https://nrapstine%40usgs.gov@my.usgs.gov/bitbucket/scm/arc/hpc-r-tutorials.git
+$ git clone https://github.com/nrapstine-usgs/hpc-101-webinar.git
 ```
 
-Navigate into the git repository. You should now be inside the ***hpc-r-tutorials*** directory. To see the directory contents type the command ***ls*** and you should directories for ***cheat-sheets***, ***day1***, ***day2***, ***day3***,etc.
+Navigate into the newly created git repository with `cd` command.
+
+```
+$ cd hpc-101-webinar
+```
+
+ You should now be inside the ***hpc-101-webinar*** directory. To see the directory contents type the command `ls` (list directory contents) and you should see a few markdown files (file.md) and img and examples directories.
 
 
 
-### **Markdown**
+#### **Markdown**
 
-Markup language like LaTeX, XML, or HTML to easily distinguish between tags and text. But can be rendered as web page or pdf.
+- Markup language like LaTeX, XML, or HTML to easily distinguish between tags and text
+- But can be rendered as web page or pdf
+- Microsoft Office or Google Docs are wysiwyg (what you see is what you get). While it is comfortable for writing, it is not geared toward adding in-line code or tags.
+- Markdown is sort of in between where you have tags but you also have wysiwyg environment that is very readable and writer friendly but you have the ability to add formatting, code snippets and links.
 
-Wysiwyg (what you see is what you get) like Microsoft Office or Google Docs. While it is comfortable for writing, it is not geared toward adding in-line code or tags.
-
-Markdown is sort of in between where you have tags but you also have wysiwyg environment that is very readable and writer friendly but you have the ability to add formatting, code snippets and links.
-
-The editor that I recommend is [Typora](https://typora.io/). 
+The editor that I recommend is [Typora](https://typora.io/) to write markdown files. 
 
 ------
 
