@@ -27,10 +27,11 @@ Nodes talk to each other via a **communication network** - for example, InfiniBa
 
 The performance of a supercomputer is measured in Flops (floating-point operations per second) or more commonly, Tflops ("teraflop per second" = 10<sup>12</sup> or one trillion floating-point operations per second). 
 
-- The world's fastest supercomputer has 10+ million cores and performs at 93,014.6 Tflop/s (that is 93 thousand trillion calculations per second). 
-- \#500 in the world benchmarked at 349.3 Tflop/s on 13,296 cores.
-- In comparison, **Yeti supercomputer** performs at ~105 TFlop/s on 38,590 cores. 
-- A regular PC can do 17 billion flops.
+- The world's fastest supercomputer has 10+ million cores and performs at 93 petaFlops or 93,014.6 Tflop/s (that is 93 thousand trillion calculations per second)
+- \#500 in the world benchmarked at 349.3 Tflop/s on 13,296 cores
+- In comparison, **Yeti supercomputer** performs at ~105 TFlop/s on 38,590 cores
+- This MacBook Pro can do 25 billion Flop/s 
+- First [CRAY-1](http://www.thocp.net/hardware/cray_1.htm) installed in 1976 could do 100 million Flop/s
 
 Here is the [list](https://www.top500.org/list/2016/11/?page=1) of world's fastest supercomputers (updated twice a year). Top 10 as of November 2016 are:
 
@@ -52,7 +53,7 @@ Image from https://www.codeproject.com/Articles/19065/Begin-Parallel-Programming
 
 Each CPU has **cache** memory that it has fast access to (fastest and smallest; typically 16-25 MB). But by memory, we usually mean **RAM** (random access memory) that is slower to access than cache but much faster than reading/writing from **disk** (slowest and largest; long-term storage). Programs and data that are currently in use are placed in RAM so that CPU can easily access them. 
 
-In a distributed memory system, each CPU has 128 GB RAM while in shared memory system, RAM is 2-4 TB.
+In a distributed memory system, each CPU has 64 GB RAM while in shared memory system, RAM is 2-4 TB.
 
 ------
 
