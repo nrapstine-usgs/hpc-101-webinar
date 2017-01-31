@@ -32,9 +32,13 @@ cd <directory name>
 
 Type the command `ls` (list directory contents) this will show you what files are in your current working directory.  
 
-Open a Browser and go to: [https://my.usgs.gov/bitbucket/projects/ARC/repos/hpc-r-tutorials/browse](https://my.usgs.gov/bitbucket/projects/ARC/repos/hpc-r-tutorials/browse)
+Open a Browser and go to: [HPC 101 webinar GitHub repository](https://github.com/nrapstine-usgs/hpc-101-webinar) 
 
-Click on the clone icon, and copy the HTTP address. Then in terminal, type the following Git command with the url that you just copied:
+Click on the `Clone or download` icon, and switch to HTTPS copy by clicking `Use HTTPS` then press copy button.
+
+![](./img/clone.png)
+
+Then in terminal, type the following Git command with the url that you just copied:
 
 ```
 $ git clone https://nrapstine%40usgs.gov@my.usgs.gov/bitbucket/scm/arc/hpc-r-tutorials.git
