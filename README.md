@@ -65,4 +65,4 @@ The editor that I recommend is [Typora](https://typora.io/) to write markdown fi
 
 ------
 
-Go to Section 2: [Introduction to ARC at USGS](intro)
+Go to Section 2: [Introduction to ARC at USGS](intro.md)
