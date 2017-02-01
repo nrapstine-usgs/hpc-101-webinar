@@ -1,4 +1,4 @@
-### Section 8: Partitions on Yeti
+### Section 7: Partitions on Yeti
 
 **Partitions** organize nodes into logical sets (possibly overlapping groups of nodes so that nodes can be in multiple partitions). Each partition has different constraints such as job time limit, job size limit, min CPU's required, and so on. 
 
@@ -57,4 +57,4 @@ On Yeti, they are n3-[85-144].
 
 ------
 
-Go to Section 9: [Linux/Command Line](Linux.md)
+Go to Section 8: [Linux/Command Line](Linux.md)

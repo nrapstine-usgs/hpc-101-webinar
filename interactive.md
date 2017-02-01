@@ -1,4 +1,4 @@
-### Section 16: Interactive Jobs
+### Section 15: Interactive Jobs
 
 You can also run jobs in an interactive mode by making an allocation request for resources with `salloc` command and then running a program with `srun` command.
 
@@ -102,4 +102,4 @@ No Modulefiles Currently Loaded.
 
 ------
 
-Go to Section 17: [setting up SSH keys](ssh_keys.md)
+Go to Section 16: [setting up SSH keys](ssh_keys.md)

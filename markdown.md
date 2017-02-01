@@ -1,4 +1,4 @@
-### **Section 11: Markdown**
+### **Section 10: Markdown**
 
 - Markup language like LaTeX, XML, or HTML to easily distinguish between tags and text
 - But can be rendered as web page or pdf
@@ -9,4 +9,4 @@ The editor that I recommend is [Typora](https://typora.io/) to write markdown fi
 
 ------
 
-Go to Session 12: [vi editor](vi.md)
+Go to Session 11: [vi editor](vi.md)

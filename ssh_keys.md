@@ -1,4 +1,4 @@
-### Section 17: SSH Keys
+### Section 16: SSH Keys
 
 **SSH keys** are a way to identify trusted computers, without involving passwords.  
 The steps below will walk you through generating an SSH key.

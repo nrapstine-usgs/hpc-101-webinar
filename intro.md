@@ -1,4 +1,4 @@
-### Section 2: Introduction to ARC at USGS
+### Section 1: Introduction to ARC at USGS
 
 ![intro](./img/intro.png)
 
@@ -40,4 +40,4 @@ For help, send us an email at `gs-css_csas_hpc_help@usgs.gov`
 
 ------
 
-Go to Section 3: [why use Yeti supercomputer](why-hpc.md)
+Go to Section 2: [why use Yeti supercomputer](why-hpc.md)

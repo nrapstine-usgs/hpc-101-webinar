@@ -1,6 +1,6 @@
-### Section 13: scp command 
+### Section 12: scp command 
 
-#### secure copy remote to local and local to remote
+#### secure copy files from remote to local and local to remote
 
 To copy a file **from our local computer to Yeti**, we use `scp` (secure copy) command:
 
@@ -39,4 +39,4 @@ $ scp -r nrapstine@yeti.cr.usgs.gov:~/data/ data_from_Yeti/
 
 ------
 
-Go to Section 14: [Loading modules on Yeti](modules.md)
+Go to Section 13: [Loading modules on Yeti](modules.md)

@@ -1,4 +1,4 @@
-### Section 7: SLURM
+### Section 6: SLURM
 
 #### Simple Linux Utility for Resource Management
 
@@ -193,4 +193,4 @@ if you have a demo, emergency data processing needs, or for some reason need pri
 
 ------
 
-Go to Section 8: [Yeti partitions](partitions.md)
+Go to Section 7: [Yeti partitions](partitions.md)

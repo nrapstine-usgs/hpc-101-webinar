@@ -1,4 +1,4 @@
-### Section 3: Motivation
+### Section 2: Motivation
 
 #### Why use Yeti supercomputer?
 
@@ -51,4 +51,4 @@ Applications include:
 
 ------
 
-Go to Section 4: [What is a supercomputer?](supercomputer.md)
+Go to Section 3: [What is a supercomputer?](supercomputer.md)

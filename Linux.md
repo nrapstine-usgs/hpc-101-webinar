@@ -1,4 +1,4 @@
-### Section 9: Essential Linux commands tutorial
+### Section 8: Essential Linux commands tutorial
 
 Most HPC systems run Linux OS. So, our goal for this section is to learn the basics of Linux command line interface. 
 
@@ -329,4 +329,4 @@ When you want to execute a program that is not in your $PATH, run that program w
 
 ------
 
-Go to Section 10: [Version control with Git](Git.md)
+Go to Section 9: [Version control with Git](Git.md)

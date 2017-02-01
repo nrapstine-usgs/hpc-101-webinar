@@ -1,31 +1,47 @@
-# HPC 101 webinar
+# HPC 101 Webinar
 
-### Section 1
+#### Learning Objectives: 
 
-To get started, Windows users need to first install [Git Bash](https://git-for-windows.github.io/).
+By the end of this course, you should be able to:
 
-- Follow the prompts
-- Select "Use Git from the Windows Command Prompt"
-- Select "Checkout Windows-style, commit Unix-style line endings"
-- Select "Use Windows' default console window"
-- Finish
+- Login to USGS supercomputer Yeti from Windows or Mac machine
 
-After Git Bash is installed, launch Git Bash that will open a Command Prompt window. 
+- Define Yeti’s hardware, filesystems, and architecture
 
+- Navigate and manipulate filesystems on Yeti using basic Linux commands
 
+- Version control code using basic Git commands
 
-To get started, Mac users open a Terminal. To open a Terminal, press `command` + `space`, then type `term` and press `enter`. The Terminal window will pop up. You can customize your Terminal, by clicking on Terminal -> Preferences… (or alternatively, press `command` + `,`) to open up Preferences. There you can choose a profile that you like (make that Default to open up new Terminal window with that profile). 
+- Efficiently edit scripts using vi text editor 
 
-In the Git Bash window (Windows) or Terminal (Mac) , type:
+- Define common workload manager SLURM flags
 
-```
-$ pwd
-```
+- Load existing software and modules on Yeti
 
-The command `pwd` stands for print working directory and it will display where you are in the directory structure.
+- Submit jobs and request resources using SLURM scripts
 
-Type the command `ls` (list directory contents) this will show you what files are in your current working directory.  
+- Monitor queue and job status
+
+  ​
+
+#### Agenda
+
+- Introduction
+- Motivation: Why use Yeti? 
+- What is a supercomputer? 
+- Yeti architecture (hardware and storage)
+- Login to Yeti from Windows (with PuTTY) or Mac with SSH 
+- SLURM commands (flags in slurm script, squeue, etc)
+- Yeti partitions
+- Linux/Command Line
+- Git
+- Vi commands for file editing on Yeti
+- file transfer to/from Yeti with scp command
+- load modules on Yeti
+- batch jobs (exercise submitting jobs)
+- interactive jobs with salloc (exercise running jobs)
+- SSH keys and sinteractive (MatLab example)
 
 ------
 
-Go to Section 2: [Introduction to ARC at USGS](intro.md)
+Go to Section 1: [Introduction to ARC at USGS](intro.md)

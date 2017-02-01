@@ -1,4 +1,4 @@
-### Section 4: What is a supercomputer?
+### Section 3: What is a supercomputer?
 
 **High Performance Computing** (HPC) system has the following characteristics:
 
@@ -60,4 +60,4 @@ In a distributed memory system, each CPU has 64 GB RAM while in shared memory sy
 
 ------
 
-Go to Section 5: [Yeti architecture](architecture.md)
+Go to Section 4: [Yeti architecture](architecture.md)
