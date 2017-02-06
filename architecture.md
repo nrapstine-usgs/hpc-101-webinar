@@ -61,7 +61,7 @@
   - 2 TB RAM
   - 6 [NVidia Tesla K80 GPUs](http://www.nvidia.com/object/tesla-k80.html) w/ 4992 cuda cores each (29,952 total) 
   - 6 [Intel 7120P "Knight's Corner" Xeon Phi Co-processors](http://ark.intel.com/products/75799/Intel-Xeon-Phi-Coprocessor-7120P-16GB-1_238-GHz-61-core) w/ 61 cores at 1.238 GHz (366 total cores) 
-  - 6 [2 TB Intel P3700 NVMe SSD](http://www.intel.com/content/www/us/en/solid-state-drives/solid-state-drives-dc-p3700-series.html) (12 TB total) for local scratch or short term use. 
+  - 6 [2 TB Intel P3700 NVMe SSD](http://www.intel.com/content/www/us/en/solid-state-drives/solid-state-drives-dc-p3700-series.html) (12 TB total) for local scratch or short term use
 
 
 
