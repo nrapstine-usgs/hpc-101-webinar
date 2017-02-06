@@ -6,11 +6,9 @@ Most HPC systems run Linux OS. So, our goal for this section is to learn the bas
 
 **Linux OS**
 
-Git Bash allows you to use Linux command line commands to interact with files on your local machine, write scripts, install software, run programs and connect to a remote machine. 
-
 There are two ways to interact with the Operating System (OS - software layer between hardware and software that manages memory, processes, files, and devices) - Graphical User Interface (**GUI**) and Command Line Interface (**CLI**). A GUI allows a user to click buttons to interact with files and executes a program, or drag and drop files. In comparision, a **Linux Shell** is a CLI that interprets the commands that the user types at the prompt (like `pwd`). 
 
-**Git Bash** and **Terminal** are user interfaces that allow user to input text and issue commands at the prompt that are interpreted by a Linux Shell. 
+**Terminal** is a user interface that allows user to input text and issue commands at the prompt that are interpreted by a Linux Shell. 
 
 Programs that you write are either **compiled** language (C, C++ where you have a binary file that you can run on its own) or **scripting** files which are plain text (which why they are often called scripts) where you write a list of commands and you run through an interpreter which is shell. Shell reads the text file line by line and executes these commands. 
 
@@ -19,16 +17,10 @@ To see what shell you are running, type at the prompt:
 ```
 $ echo $0
 
-[Out:] -bash            # Mac
-[Out:] /usr/bin/bash    # Windows
-[Out:] -bash            # Linux (Yeti)
+[Out:] -bash            
 ```
 
 There are a few different shells. On most OS, **bash** is the default shell.
-
-Windows users are running Git Bash.
-
-
 
 If you are running Mac or Linux, to find out what shells are installed on your system, type:
 
@@ -61,16 +53,19 @@ $ cat /etc/shells
 /bin/tcsh
 /bin/zsh
 /usr/bin/dzsh
-
 ```
 
 
 
-**File system**
+**Yeti file system**
 
 The file system on Linux follows a basic tree structure with `/` directory as the root and all other directories inside that root directory. Note, a **folder** is an icon that only represents a **directory** on a file system. A directory is a file system structure. But most users use directory and folder interchangeably. 
 
-You should be in the <> directory. Let's confirm by typing `pwd` command:
+![](img/tree.png)
+
+
+
+You should be in the `/home/<username>` directory. Let's confirm by typing `pwd` command:
 
 ```
 $ pwd     					     	# print working directory
