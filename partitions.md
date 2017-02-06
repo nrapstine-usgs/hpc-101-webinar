@@ -57,4 +57,4 @@ On Yeti, they are n3-[85-144].
 
 ------
 
-Go to Section 8: [Linux/Command Line](Linux.md)
+Go to Section 8: [version control with Git](Git.md)
