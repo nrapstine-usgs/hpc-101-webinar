@@ -81,39 +81,44 @@ Other options to display the contents are:
 
 ```
 $ ls -F   						# display a '/' to designate a directory (directory/)
-$ ls -la  						# list one entry per line and display hidden files (.file)
 $ ls -ltr						# display long listing with permissions, owner, size and 								 # date information
 $ ls -ltr -G					# add colors to links and directories
+$ ls -la  						# list one entry per line and display hidden files (.file)
 ```
+
+Note, you can press up arrow to see previously typed commands (huge time saver!).
 
 You should now see the long format listing (-l) of all (-a) the files in your directory including hidden files.
 
-​	**Access rights** These are actions that are permitted on a file or directory.
+**Access rights** These are actions that are permitted on a file or directory.
 
-​	**Number of hard links** This number counts the number of child directories and files. This number includes the parent directory link (..) and current directory link (.)
-
-​	**The username of the file's owner.** 
-
-​	**The name of the group that owns the file.** 
-
-​	**The size of the file in bytes.**
-
-​	**The date & time that the file was last modified.**
-
-​	**The name of the file or directory.**
+- First letter indicates file type: `-` is a file; `d` stands for directory
 
 
+- Owner permissions: read `r`, write `w` and execute `x` for the owner of the file
+- Group members permissions: read `r`, write `w` and execute `x` for the owner of the file
+- All other users permissions: read `r`, write `w` and execute `x` for the owner of the file
 
-On a **Mac**, to view available options and read about the command, type `man` to display the manual pages. Type `space` to scroll and `q` to exit the doc pages:
+![](img/permissions.png)
+
+**Number of hard links** This number counts the number of child directories and files. This number includes the parent directory link (..) and current directory link (.)
+
+**The username of the file's owner.** 
+
+**The name of the group that owns the file.** 
+
+**The size of the file in bytes.**
+
+**The date & time that the file was last modified.**
+
+**The name of the file or directory.**
+
+
+
+To view available options and read about the command, type `man` to display the manual pages. Type `space` to scroll and `q` to exit the doc pages:
 
 ```
 $ man ls     						# display help docs (space to scroll, q to exit)
-```
-
-In **Git Bash**, to view the help docs, type:
-
-```
-$ ls --help
 ```
 
 If your screen gets messy, you can always clear it with `clear` command. On a Mac, you can also press `command` + `K` to clear the display.
@@ -125,11 +130,11 @@ $ clear (or command + K on Mac)   # clear display
 You can navigate to a different directory with `cd` (change directory) command.
 
 ```
-$ cd <directory> 					# change directory to a specified destination
+$ cd <directory> 				# change directory to a specified destination
 $ cd /         					# change directory to a root directory
 $ cd ..        					# go one level up
-$ cd           					# change directory to home/
-$ cd ~							# change directory to home/
+$ cd           					# change directory to home/<username>
+$ cd ~							# change directory to home/<username>
 ```
 
 Linux shell has tab completion so press `tab` to complete a command. 
@@ -137,32 +142,20 @@ Linux shell has tab completion so press `tab` to complete a command.
 We can make a new file with `touch` command.
 
 ```
-$ touch <newfile>                  # create a new file
+$ touch test.txt                   # create a new file test.txt
 ```
 
-To create a symbolic link, use `ln` command:
+To create a new directory, use `mkdir` command then list the contents of the directory:
 
 ```
-ln 								# make a link
-```
-
-To create a new directory, use `mkdir` command:
-
-```
-$ mkdir mydat   					# create new directory
-$ ls -F
+$ mkdir data   				       # create new directory data
+$ ls 
 ```
 
 We can copy a file with `cp` command:
 
 ```
-$ cp data.txt data2.txt 			# copy files
-```
-
-To copy a directory that is not empty, add `-r` flag to indicate recursive copying of files and subdirectories inside that directory:
-
-```
-$ cp -r /data /data2				# copy a directory
+$ cp test.txt data.txt 			    # copy files
 ```
 
 To rename a file, use `mv` command:
@@ -174,32 +167,45 @@ $ mv data.txt mydata.txt 			# rename or move files
 You can also move a file to a different directory with `mv` command:
 
 ```
-$ mv data.txt /data/				# move data.txt file inside data/ directory
+$ mv mydata.txt data/				# move data.txt file inside data/ directory
 ```
 
-You can move a directory with `mv -r` command. If you specify the path where to move the directory, the directory is moved with the same name. Or alternatively, you can specify a new name to move the directory.
+To create a symbolic link, use `ln` command:
 
 ```
-$ mv -r data/ mydata/data/			# move data/ directory inside /mydata/ directory
-$ mv -r data/ mydata/data2/			# move data/ directory inside /mydata/ directory and 									 # rename it data2/
+ln -s data/mydata.txt  			    # make a symbolic link
+```
+
+To copy a directory that is not empty, add `-r` flag to indicate recursive copying of files and subdirectories inside that directory:
+
+```
+$ cp -r data/ data2				   # copy a directory
+```
+
+You can move a directory with `mv` command. If you specify the path where to move the directory, the directory is moved with the same name. Or alternatively, you can specify a new name to move the directory.
+
+```
+$ mv data2 data/					# move data2/ directory inside data/ directory
+$ mkdir newdata
+$ mv newdata data/mydata/			# move newdata directory inside data/ directory and 									# rename it mydata/
 ```
 
 To remove a file, use `rm` command:
 
 ```
-$ rm <file>						# remove file
+$ rm test.txt						# remove file
 ```
 
 To remove a link, use `unlink` command:
 
 ```
-$ unlink <file>					# removes a link
+$ unlink mydata.txt					# removes a link
 ```
 
-To remove a directory, again use `-r` flag:
+To remove a directory that is not empty, use `-r` flag:
 
 ```
-$ rm -r                           # remove directory if directory is not empty
+$ rm -r data                        # remove directory if directory is not empty
 ```
 
 To display your user id and host system name, type:
@@ -212,7 +218,7 @@ $ hostname							# display name of the host system
 If you want to know where a program is located, you can type `which`:
 
 ```
-$ which python							# locate a program in user's path
+$ which python							# locate a program in user's PATH
 ```
 
 To display a file on the screen, use `cat` command. Alternatively, use `less` to display less information or `more` to display more. `less` and `more` allow you to scroll (by pressing `space`) and `q` to quit.
@@ -226,15 +232,15 @@ $ more <file>
 Similarly, if you want to only display the first few lines of a file, use `head` command.
 
 ```
-$ head <file>                           # display first lines of a file
+$ head <file>                           # display first lines in a file
 $ head -10 <file>						# display first 10 lines in a file
 ```
 
 Or you can use `tail` command to display the last few lines of a file. Use `-n` flag to indicate how many lines you want displayed:
 
 ```
-$ tail <file>                           # dispaly last lines of a file
-$ tail -10 <file>						# dispaly last lines of a file
+$ tail <file>                           # dispaly last lines in a file
+$ tail -10 <file>						# dispaly last 10 lines in a file
 ```
 
 If you are writing a log file that is constantly being added new information as your program runs, you can use `tail -f` command to display it and append new data to the screen.
