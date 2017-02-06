@@ -221,10 +221,20 @@ If you want to know where a program is located, you can type `which`:
 $ which python							# locate a program in user's PATH
 ```
 
-Let's navigate into `/home/nrapstine/hpc-101-webinar/examples` directory:
+When you enter `ls` command, you should see `hpc-101-webinar` directory in your home. 
+
+Navigate into the newly created Git repository with `cd` command:
 
 ```
-$ cd /home/nrapstine/hpc-101-webinar/examples
+$ cd hpc-101-webinar
+```
+
+ You should now be in the **hpc-101-webinar** directory. To see the directory contents type the command `ls` (list directory contents) and you should see a few markdown files (file.md) and **img** and **examples** directories.
+
+Let's navigate into `hpc-101-webinar/examples` directory:
+
+```
+$ cd hpc-101-webinar/examples
 ```
 
 To display a file on the screen, use `cat` command. Alternatively, use `less` to display less information or `more` to display more. `less` and `more` allow you to scroll (by pressing `space`) and `q` to quit.

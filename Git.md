@@ -42,16 +42,6 @@ On Yeti, navigate to your home directory (type `cd`) and clone the Yeti Tutorial
 $ git clone https://github.com/nrapstine-usgs/hpc-101-webinar.git
 ```
 
-When you enter `ls` command, you should see `hpc-101-webinar` directory in your home. 
-
-Navigate into the newly created git repository with `cd` command.
-
-```
-$ cd hpc-101-webinar
-```
-
- You should now be in the **hpc-101-webinar** directory. To see the directory contents type the command `ls` (list directory contents) and you should see a few markdown files (file.md) and **img** and **examples** directories.
-
 To view information about the remote reposity, enter:
 
 ```
