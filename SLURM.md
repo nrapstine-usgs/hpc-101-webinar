@@ -104,10 +104,6 @@ If you want to learn more about the options for a SLURM command you can use the�
 
 `squeue -u <username> `: display all jobs for a specified user
 
-`scancel`: cancel running or pending job 
-
-`scancel -u <username>`: cancel all jobs for a specified user
-
 `sidle`: report summary of what is currently running on the cluster.
 
 ```
@@ -189,7 +185,7 @@ to kill an individual job.
 
 #### Priority Reservations
 
-if you have a demo, emergency data processing needs, or for some reason need priority in the queue, please contact us and we can create a reservation for you at `gs-css_csas_hpc_help@usgs.gov`.
+If you have a demo, emergency data processing needs, or for some reason need priority in the queue, please contact us and we can create a reservation for you at `gs-css_csas_hpc_help@usgs.gov`.
 
 ------
 
