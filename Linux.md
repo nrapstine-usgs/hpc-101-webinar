@@ -290,7 +290,7 @@ $ ls | head -3                   # piping output of ls command as input to head 
 You can also redirect output to a file with `>` operator:
 
 ```
-$ wc -l data.txt > test_output	 # redirects output to a file
+$ wc -l helloworld.py > test_output	 # redirects output to a file
 $ ls
 $ cat test_output
 ```
@@ -305,7 +305,7 @@ $ cat test_output
 To read data from a file, use `>` operator:
 
 ```
-$ wc -l < test_output		# data from test_output file becomes input to wc -l command
+$ wc -l < test_output		# data from test_output file becomes input to "wc -l" command
 ```
 
 We can combine reading from file `<` and outputting to a file `>` into a single command:
@@ -325,6 +325,7 @@ To untar a tar ball,
 
 ```
 $ tar -xvf file.tar				    # untar tape archive files
+$ tar -xzvf file.tar.gz				# to untar tar and compressed gz file
 ```
 
 To change the prompt:
@@ -332,8 +333,6 @@ To change the prompt:
 ```
 $ PS1='\W> '                        # change prompt
 ```
-
-When you want to execute a program that is not in your $PATH, run that program with ./program as opposed to running python that is in your $PATH. You can verify that by typing `echo $PATH` and `which python`.
 
 ------
 
