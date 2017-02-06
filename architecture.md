@@ -10,7 +10,7 @@
   - 3,152 CPU Cores (1,456 Intel Ivy Bridge cores and 1,696 Intel Haswell cores)
   - 366 Xeon Phi 7120P cores
   - 35,072 Cuda Cores (5,120 Quadro K2200 GPU cores and 29,952 Tesla K80 GPU cores)
-- 23,824 GB Total RAM
+- 23.8 TB Total RAM
 - ~105 TFlop/s total combined performance 
 - Node interconnect is InfiniBand (40-56 Gb/s)
 - 793 TB Usable Storage
@@ -59,9 +59,9 @@
 - 2 [SGI UV300](https://www.sgi.com/pdfs/4551.pdf) Compute nodes (256 CPU cores and 29,952 GPU cores and 366 Xeon Phi cores)
   - 8x16 Core [Intel "Haswell" E7-8867 v3 2.5Ghz](http://ark.intel.com/products/84681/Intel-Xeon-Processor-E7-8867-v3-45M-Cache-2_50-GHz) CPUs (128 total cores)
   - 2 TB RAM
-  - 6 [NVidia Tesla K80 GPUs](http://www.nvidia.com/object/tesla-k80.html) w/ 4992 cuda cores each (29,952 total) - all six are on one UV300
-  - 6 [Intel 7120P "Knight's Corner" Xeon Phi Co-processors](http://ark.intel.com/products/75799/Intel-Xeon-Phi-Coprocessor-7120P-16GB-1_238-GHz-61-core) w/ 61 cores at 1.238 GHz (366 total cores) - all six are on one UV300
-  - 6 [2 TB Intel P3700 NVMe SSD](http://www.intel.com/content/www/us/en/solid-state-drives/solid-state-drives-dc-p3700-series.html) (12 TB total) for local scratch or short term use. These drives replace the use the ramdisk for local scratch on these systems. You now have all RAM available for computation.
+  - 6 [NVidia Tesla K80 GPUs](http://www.nvidia.com/object/tesla-k80.html) w/ 4992 cuda cores each (29,952 total) 
+  - 6 [Intel 7120P "Knight's Corner" Xeon Phi Co-processors](http://ark.intel.com/products/75799/Intel-Xeon-Phi-Coprocessor-7120P-16GB-1_238-GHz-61-core) w/ 61 cores at 1.238 GHz (366 total cores) 
+  - 6 [2 TB Intel P3700 NVMe SSD](http://www.intel.com/content/www/us/en/solid-state-drives/solid-state-drives-dc-p3700-series.html) (12 TB total) for local scratch or short term use. 
 
 
 
