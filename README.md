@@ -8,9 +8,9 @@ By the end of this course, you should be able to:
 
 - Define Yeti’s hardware, filesystems, and architecture
 
-- Navigate and manipulate filesystems on Yeti using basic Linux commands
-
 - Version control code using basic Git commands
+
+- Navigate and manipulate filesystems on Yeti using basic Linux commands
 
 - Efficiently edit scripts using vi text editor 
 
@@ -33,8 +33,8 @@ By the end of this course, you should be able to:
 - Login to Yeti from Windows (with PuTTY) or Mac with SSH 
 - SLURM commands (flags in slurm script, squeue, etc)
 - Yeti partitions
-- Linux/Command Line
 - Git
+- Linux/Command Line
 - Vi commands for file editing on Yeti
 - file transfer to/from Yeti with scp command
 - load modules on Yeti

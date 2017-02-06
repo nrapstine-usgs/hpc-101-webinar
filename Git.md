@@ -1,4 +1,4 @@
-### Section 9: Git  
+### Section 8: Git  
 
 Git is distributed verstion control system. What does that mean?
 
@@ -111,4 +111,4 @@ $ git push origin master
 
 ------
 
-Go to Session 10: [Markdown](markdown.md)
+Go to Session 9: [Linux/Command Line Essentials](Linux.md)

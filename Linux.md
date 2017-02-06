@@ -1,4 +1,4 @@
-### Section 8: Essential Linux commands tutorial
+### Section 9: Essential Linux commands tutorial
 
 Most HPC systems run Linux OS. So, our goal for this section is to learn the basics of Linux command line interface. 
 
@@ -221,32 +221,38 @@ If you want to know where a program is located, you can type `which`:
 $ which python							# locate a program in user's PATH
 ```
 
+Let's navigate into `/home/nrapstine/hpc-101-webinar/examples` directory:
+
+```
+$ cd /home/nrapstine/hpc-101-webinar/examples
+```
+
 To display a file on the screen, use `cat` command. Alternatively, use `less` to display less information or `more` to display more. `less` and `more` allow you to scroll (by pressing `space`) and `q` to quit.
 
 ```
-$ cat <file>							# print file content to screen
-$ less <file>							# space to scroll, q to quit 
-$ more <file>
+$ cat helloworld.py						# print file content to screen
+$ less helloworld.py					# space to scroll, q to quit 
+$ more helloworld.py
 ```
 
 Similarly, if you want to only display the first few lines of a file, use `head` command.
 
 ```
-$ head <file>                           # display first lines in a file
-$ head -10 <file>						# display first 10 lines in a file
+$ head helloworld.py                    # display first few lines in a file
+$ head -3 helloworld.py 				# display first 3 lines in a file
 ```
 
 Or you can use `tail` command to display the last few lines of a file. Use `-n` flag to indicate how many lines you want displayed:
 
 ```
-$ tail <file>                           # dispaly last lines in a file
-$ tail -10 <file>						# dispaly last 10 lines in a file
+$ tail helloworld.py                    # dispaly last lines in a file
+$ tail -3 helloworld.py  				# dispaly last 3 lines in a file
 ```
 
 If you are writing a log file that is constantly being added new information as your program runs, you can use `tail -f` command to display it and append new data to the screen.
 
 ```
-$ tail -f <file>						# display last lines of a file and append new data
+$ tail -f <file.out>					# display last lines of a file and append new data
 ```
 
 The `echo` command outputs information to the screen. It is useful to display environmental variables such as $PATH. 
@@ -259,7 +265,7 @@ $ echo $PATH
 If you want to see how many lines are in a file, use `wc -l` command (`wc` stands for word count, and `l` for lines):
 
 ```
-$ wc -l [file]							# line count in input file
+$ wc -l helloworld.py                   # line count in input file
 ```
 
 To change permissions of a file, use `chmod` command:
@@ -271,7 +277,8 @@ $ chmod   						# change permissions
 To search for patterns, use `grep` command:
 
 ```
-$ grep							# search for patterns
+$ grep <pattern>				# search for patterns
+$ grep size *                   # search for matching patterns "size" in current directory
 ```
 
 To pipe output of one command to be the input to the next one, use piping `|`:
@@ -330,4 +337,4 @@ When you want to execute a program that is not in your $PATH, run that program w
 
 ------
 
-Go to Section 9: [Version control with Git](Git.md)
+Go to Section 10: [Markdown](markdown.md)
