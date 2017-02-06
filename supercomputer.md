@@ -20,11 +20,15 @@ Image from https://en.wikipedia.org/wiki/Supercomputer
 - Processors have multiple **cores**
 - Cores are individual computation unit on the CPU that carry out the instructions. For example, an individual Intel-based compute node has two 10-core CPU's
 
+![](./img/node.png)
+
+
+
 ![hierarchy](./img/LLNL_BGL_Diagram.png)
 
 Image from https://en.wikipedia.org/wiki/Blue_Gene. In the figure, Compute Chip is an individual node with 2 CPU's. Node card is also called a blade that holds 32 nodes. Thus, each cabinet has 1024 nodes with thousands of cores.
 
-![](./img/node.png)
+
 
 Nodes talk to each other via a **communication network** - for example, InfiniBand. 
 
