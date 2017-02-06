@@ -36,7 +36,7 @@ The performance of a supercomputer is measured in Flops (floating-point operatio
 
 - The world's fastest supercomputer has 10+ million cores and performs at 93 petaFlops or 93,014.6 Tflop/s (that is 93 thousand trillion calculations per second)
 - \#500 in the world benchmarked at 349.3 Tflop/s on 13,296 cores
-- In comparison, **Yeti supercomputer** performs at ~105 TFlop/s on 38,590 cores
+- In comparison, **Yeti supercomputer** performs at ~105 TFlop/s on 3,152 CPU cores
 - This MacBook Pro can do 25 billion Flop/s 
 - First [CRAY-1](http://www.thocp.net/hardware/cray_1.htm) installed in 1976 could do 100 million Flop/s
 
