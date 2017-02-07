@@ -1,6 +1,6 @@
 ### Section 13: Loading Environment Modules on Yeti
 
-Before we run any code, let's look at our available modules on Yeti. On Yeti you can load environment modules to dynamically modify your environment. To check which modules are available on Yeti you can use the **module avail** command.
+Before we run any code, let's look at the available modules on Yeti. Environment modules are loaded to dynamically modify your environment. To check which modules are available on Yeti you can use the **module avail** command.
 
 Enter the command: `module avail`
 
@@ -27,13 +27,13 @@ To determine which modules are currently loaded in your environment, you can use
 
 *Enter the Command:* `module list` ​
 
-You should see output similar to the following:
+You should see the following output:
 
 ```
 No Modulefiles Currently Loaded.
 ```
 
-Before we run our `helloworld.py` code, let's look at our default python environment.
+Our test program is `helloworld.py`. But before we run our code, let's look at our default python environment.
 
 Enter the command:
 `which python`
@@ -83,7 +83,7 @@ $ python --version
 Python 2.7.13 :: Anaconda custom (64-bit)
 ```
 
-To remove the modules, you will use the **module purge** command.
+To remove a module, you can use `module unload <module_name>`. That command unload only the specified module. But if you want to remove all modules, use the **module purge** command.
 
 Enter the command:
 `module purge`
